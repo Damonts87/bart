@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bart's Chalkboard</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id = "most">
+        <h1>Bart Simpson's Chalkboard</h1>
+        <form id="chalkboardForm">
+            <label for="sentence">Enter Bart's sentence:</label><br>
+            <input type="text" id="sentence" required><br>
+            <br>
+            <label for="count">Number of times he has to repeat:</label><br>
+            <input type="number" id="count" min="1" required><br>
+            <br>
+            <button type="submit">Write</button>
+        </form>
+
+        <div id="output"></div>
+    </div>
+    <div id = "bort">
+        <img src="bart.png" alt="Bart Simpson">
+    </div>
+</body>
+</html>
